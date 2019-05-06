@@ -1976,6 +1976,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -22738,6 +22739,8 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("th", { attrs: { scope: "col" } }),
         _vm._v(" "),
+        _c("th", { attrs: { scope: "col" } }),
+        _vm._v(" "),
         _c("th", { attrs: { scope: "col" } })
       ])
     ])
@@ -37842,8 +37845,8 @@ var routePaths = [{
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/emekaosuagwu/Desktop/insider-test/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/emekaosuagwu/Desktop/insider-test/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /Users/emekaosuagwu/Documents/.code/Champions_League/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/emekaosuagwu/Documents/.code/Champions_League/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })

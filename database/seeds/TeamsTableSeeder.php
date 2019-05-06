@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Jobs\SetupMatches;
 
 class TeamsTableSeeder extends Seeder
 {
@@ -19,5 +20,7 @@ class TeamsTableSeeder extends Seeder
             ['name' => 'Manchester United', 'strength' => 8],
             ['name' => 'Everton', 'strength' => 4],
         ]);
+
+        SetupMatches::dispatchNow();
     }
 }
